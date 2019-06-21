@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="login.service.js"></script>
+        <script src="login.controller.js"></script>
+
+        <title>
+            LOGIN
+        </title>
+      
+    </head>
+    <BODY>
+            
+        <div ng-app="myapp" ng-controller="logincontroller">
+                UserID:<input type=text id=1 ng-model="userid"><br><br>
+                Password:<input type="text" id=2 ng-model="pass"><br><br>
+                <input type="submit" ng-click="func()">
+                <p>{{pass}}</p>
+
+        </div>
+       
+  </BODY>
+    
+</html>
