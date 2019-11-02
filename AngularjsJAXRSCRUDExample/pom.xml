@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 	  <properties>
         <jersey.version>1.18.3</jersey.version>
-        <spring.framework>4.3.0.RELEASE</spring.framework>
+        <spring.framework>5.2.0.RELEASE</spring.framework>
     </properties>
 	<dependencies>
 		<dependency>
